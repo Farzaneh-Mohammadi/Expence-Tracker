@@ -1,0 +1,51 @@
+.top-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.result-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cost-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem 2rem 1rem 0.7rem;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.exp {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.inc {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.btn {
+	outline: none;
+	padding: 5px 10px;
+	background-color: #ede9fe;
+	color: #6d28d9;
+	border-radius: 5px;
+	border: 1px solid #6d28d9;
+	height: 2rem;
+	margin-top: .5rem;
+
+}
+
+
+.cancel{
+	background-color: #fff;
+	color: #dc2626;
+	border: 1px solid #dc2626;
+}
