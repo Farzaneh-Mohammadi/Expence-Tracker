@@ -9,7 +9,6 @@ export default function Overview({ income, expense, addTransactions }) {
 	return (
 		<>
 			<div className='top-section'>
-				<p>Balance : {income - expense} </p>
 				<button 
 				onClick={() => setIsShow(prevState => !prevState)}  
 				className={`btn ${isShow ? "cancel" : ""}`}> 
@@ -27,6 +26,10 @@ export default function Overview({ income, expense, addTransactions }) {
 				<span className='inc'> {income} $  </span>
 				</div>
 			</div>
+
+
+			<p className='balance' >Balance : {income - expense} </p>
+
 		</>
 	)
 }
