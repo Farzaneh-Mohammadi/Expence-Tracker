@@ -44,6 +44,18 @@
 }
 
 
+.balance{
+  display: flex;
+  color: #6d28d9;
+  width: 40%;
+  justify-content: center;
+  margin: 2rem auto;
+  text-align: center;
+  padding: .5rem;
+  border: 2px solid #6d28d9;
+  border-radius: 5px;
+}
+
 .cancel{
 	background-color: #fff;
 	color: #dc2626;
